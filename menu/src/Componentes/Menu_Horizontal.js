@@ -1,4 +1,5 @@
 import React from "react"
+import "./Menu_Horizontal.css"
 
 export default function Menu() {
     return (

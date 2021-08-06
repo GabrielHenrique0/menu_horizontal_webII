@@ -1,7 +1,7 @@
 .navMenu {
-    background-color: gray;
-    height: 50vh;
-
+    background-color: #6d6d6d;;
+    height: 5vh;
+    
 }
 
 .navMenu::after {
@@ -13,17 +13,19 @@
 .navMenu ul {
     list-style: none;
     text-align: left;
+    display: flex;
 }
 
 .navMenu ul li a:hover {
     font-weight: bold;
     font-size: 18px;
-    color: blue;
+    color: red
 }
 
 #inicio {
     height: 70vh;
     background-color: greenyellow;
+    border: 1px solid red;
 }
 
 #cursos {
@@ -40,6 +42,7 @@
 #parceiros {
     height: 40vh;
     background-color: thistle;
+    border: 1px solid green;
 }
 
 #missao {
@@ -51,5 +54,5 @@
 #sobre {
     height: 10vh;
     background-color: seashell;
-    border: 1px
+    border: 1px solid red;
 }

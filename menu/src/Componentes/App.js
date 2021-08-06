@@ -1,10 +1,11 @@
-
 import './App.css';
+import Menu from "./Menu_Horizontal.js"
 
 function App() {
   return (
     <div>
-      <h1> Olá Mundo!</h1>
+      <Menu />
+
     </div>
 
   );
