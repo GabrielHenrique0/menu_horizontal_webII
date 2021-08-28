@@ -1,4 +1,3 @@
-// importar toda a biblioteca react
 import React from 'react'
 
 import './Titulo.css'
@@ -12,3 +11,4 @@ export default function Titulo(props) {
         </div>
     )
 }
+
