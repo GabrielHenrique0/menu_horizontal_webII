@@ -5,14 +5,15 @@ import { BrowserRouter } from 'react-router-dom'
 
 import './index.css';
 
-import App from './Componentes/App/App.js';
+import App from './componentes/App/App.js';
 
 ReactDOM.render(
   <BrowserRouter>
 
-      <App />
+    <App />
 
   </BrowserRouter>,
 
   document.getElementById('root')
 );
+
