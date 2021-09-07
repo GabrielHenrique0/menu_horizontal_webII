@@ -6,7 +6,7 @@ export default function Titulo(props) {
     return (
         <div className="titulo">
 
-            <h4> {props.texto} </h4>
+            <h3> {props.texto} </h3>
 
         </div>
     )

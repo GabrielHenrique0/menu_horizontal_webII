@@ -1,4 +1,5 @@
 import React from 'react'
+
 // importar pacote Link que é parte do react-router-dom
 import { Link } from 'react-router-dom'
 
@@ -10,11 +11,12 @@ export default function Header() {
             <nav className="navMenu">
                 <ul>
                     <li> <Link to="/"> Voltar </Link> </li>
-                    <li> <Link to="/cursos"> Informática </Link></li>
-                    <li> <Link to="/cursos"> Engenharia </Link></li>
-                    <li> <Link to="/cursos"> Química </Link></li>
-                    <li> <Link to="/cursos"> Administração </Link></li>
-                    <li> <Link to="/cursos"> Direito </Link></li>
+                    <li> <Link to="/cursos"> Cursos </Link></li>
+
+                    <li> <Link to="/cursos"> Contatos </Link></li>
+                    <li> <Link to="/cursos"> Parceiros </Link></li>
+                    <li> <Link to="/cursos"> Missão </Link></li>
+                    <li> <Link to="/cursos"> Sobre </Link></li>
                 </ul>
             </nav>
         </div>
