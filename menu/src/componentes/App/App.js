@@ -9,14 +9,15 @@ import Parceiros from '../Parceiros/Parceiros.jsx'
 import Missao from '../Missao/Missao.jsx'
 import Sobre from '../Sobre/Sobre.jsx'
 
+//import { Link } from 'react-router-dom'
 import { Route, Switch} from 'react-router'
 
 function App() {
   return (
     <div>
-
+ 
       <Header />
-
+      
       <main>
         <Switch>
           <Route exact path = "/" render = {(props) => <Inicio/>}></Route>

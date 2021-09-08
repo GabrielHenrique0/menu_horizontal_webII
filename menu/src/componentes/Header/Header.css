@@ -24,16 +24,16 @@
     text-align: left;
     
 /*
-    display: flex; 
+    display: flex;    
 */
 }
 
-.navMenu ul li {
+.navMenu ul li{
     display: inline;
 }
 
 .navMenu ul li a {
-    padding-left: 2vw;
+    padding-left: 1.2vw;
     display: inline-block;
     text-decoration: none;
     color: #333;
@@ -41,6 +41,6 @@
 
 .navMenu ul li a:hover {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     color: blue;
 }
